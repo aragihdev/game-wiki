@@ -1,0 +1,121 @@
+/*FONTE DO SITE*/
+/*verde da batalha: #448B46 - laranja da batalha - #F58604*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+/*customização da aba de navegação*/
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ffffff;
+}
+
+nav li {
+    list-style: none;
+    color: #F58604;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+nav a {
+    padding-right: 30px;
+    border-style: solid;
+    border-color: #F58604;
+    color: #F58604;
+    text-decoration: none;
+}
+
+nav ul {
+    margin-top: 20px;
+}
+nav a:hover{
+    filter: hue-rotate(20deg) saturate(2.5) brightness(2);
+}
+
+/*logo e titulo do site*/
+.title {
+    font-size: 20px;
+}
+
+.title a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+/*imagens da topbar*/
+.logoimg {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.topimg {
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+/*conteúdo do site*/
+article {
+    border-bottom: 2px solid white;
+}
+
+section h2 {
+    font-size: 40px;
+    color: #F58604;
+}
+
+section h3 {
+    font-size: 26px;
+    color: yellow;
+}
+
+section p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+section li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.textbox {
+    padding: 10px;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+
+.mention {
+    color: darkmagenta;
+}
+.mention:hover{
+    color: red;
+}
+/*fazer a foto ir para a direita*/
+figure {
+    float: right;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
