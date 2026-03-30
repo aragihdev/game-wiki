@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <audio src="../songs/83. Here We Are.mp3" autoplay loop></audio>
+    <audio id="song" src="../songs/83. Here We Are.mp3" autoplay loop></audio>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    <script src="../script/script.js"></script>
     <header>
         <div class="title">
             <h1><a href="../index.html"><img src="../images/ico.png" alt="undertale_logo" class="logoimg">The Undertale
@@ -35,15 +38,71 @@
     <main>
         <section>
             <article class="textbox" style=" margin-top: 40px;">
-                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( Rediscovering the path through the purple brick walls fills you with determination.)</p>
+                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( The cold, sterile air and the hum of forgotten machines fill you with determination. )</p>
             </article>
             <article>
-                <h2>Title</h2>
-                <h3>subtitle</h3>
+                <h2>True Lab</h2>
+                <h3>A secret, underground facility located beneath the Royal Lab in Hotland, where Alphys's darkest experiments were conducted.</h3>
                     <p>
-                        text
+                        The True Lab is a hidden location accessible only during the <a href="../gamepage.html#routes" class="mention">True Pacifist Route</a>. It serves as the ultimate source of answers regarding the nature of souls, the creation of <a href="floweypage.html" class="mention">Flowey</a>, and the tragic fate of the fallen monsters who were used as test subjects in <a href="alphyspage.html" class="mention">Alphys</a>'s experiments with Determination.
+                    </p>
+                <h2>Geographical Characteristics</h2>
+                    <p>
+                        The atmosphere here shifts from the industrial heat of <a href="hotlandpage.html" class="mention">Hotland</a> to a cold, eerie, and clinical environment. The walls are metallic and decaying, covered in green moss and flickering fluorescent lights. The area is filled with laboratory equipment, cryogenic tanks, and VHS players that hold the records of the "DT Experiments."
                     </p>
             </article>
+            <article>
+                <h2>Key Locations</h2>
+                    <ul>
+                        <li>
+                            The Power Room: The heart of the lab's electrical system, which must be restored to exit the facility.
+                        </li>
+                        <li>
+                            The DT Extraction Machine: A massive, skull-shaped device used to extract Determination from human souls. Its design bears a striking resemblance to a Gaster Blaster used by <a href="sanspage.html" class="mention">Sans</a>.
+                        </li>
+                        <li>
+                            The VHS Room: A lounge containing tapes that reveal intimate and tragic conversations between <a href="asrielpage.html" class="mention">Asriel</a> and <a href="charapage.html" class="mention">Chara</a>.
+                        </li>
+                        <li>
+                            The Bedroom: A small, unsettling room with multiple beds where the "fallen" monsters were kept during observation.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                <h2>Inhabitants and Monsters</h2>
+                <h3>The True Lab is home to the Amalgamates, beings that cannot be defeated through traditional combat.</h3>
+                    <p>
+                        <b>The Amalgamates:</b> These are tragic fusions of multiple monster souls that melted together after being injected with Determination. They include Memoryhead, Endogeny, Reaper Bird, Lemon Bread, and Snowy's Mother.
+                    </p>
+                    <p>
+                        <b>The Creator:</b> Throughout the area, <a href="alphyspage.html" class="mention">Alphys</a>'s presence is felt through her handwritten logs, detailing her descent into guilt and isolation as the experiments went wrong.
+                    </p>
+                </article>
+                <article>
+                <h2>Gameplay Mechanics</h2>
+                <h3>This area plays like a psychological horror game, focusing on survival and discovery:</h3>
+                    <ul>
+                        <li>
+                            <b>Unbeatable Foes:</b> The Amalgamates have "glitched" stats and cannot be killed. The player must discover specific "ACT" sequences to satisfy their distorted memories and end the encounter peacefully.
+                        </li>
+                        <li>
+                            <b>Key Hunting:</b> The player must find four colored keys (Red, Blue, Green, and Yellow) scattered across the lab to unlock the path to the elevator.
+                        </li>
+                        <li>
+                            <b>Lore Entries:</b> Reading the "Lab Entries" on the wall monitors is essential to understanding the history of <a href="floweypage.html" class="mention">Flowey</a> and the Royal Scientist's secret.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                <h2>Impact on Routes</h2>
+                <h3>The truth sets the Underground free:</h3>
+                    <p>
+                        <a href="../gamepage.html#routes" class="mention">True Pacifist Route:</a> Completing this area is mandatory to unlock the game's final ending. It leads to <a href="alphyspage.html" class="mention">Alphys</a> finally coming clean to <a href="undynepage.html" class="mention">Undyne</a> and <a href="asgorepage.html" class="mention">Asgore</a> about her failures, allowing the characters to unite against the final threat.
+                    </p>
+                    <p>
+                        <a href="../gamepage.html#routes" class="mention">Genocide/Neutral Routes:</a> The True Lab remains inaccessible, as the elevator is either locked or the protagonist never receives the letter from <a href="alphyspage.html" class="mention">Alphys</a> that triggers the quest.
+                    </p>
+                </article>
         </section>
     </main>
     <footer>

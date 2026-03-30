@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <audio src="../songs/54. Hotel.mp3" autoplay loop></audio>
+    <audio id="song" src="../songs/54. Hotel.mp3" autoplay loop></audio>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    <script src="../script/script.js"></script>
     <header>
         <div class="title">
             <h1><a href="../index.html"><img src="../images/ico.png" alt="undertale_logo" class="logoimg">The Undertale
@@ -35,15 +38,55 @@
     <main>
         <section>
             <article class="textbox" style=" margin-top: 40px;">
-                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( Rediscovering the path through the purple brick walls fills you with determination.)</p>
+                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( The horizon of a world you once knew and the depth of the one you now inhabit fill you with determination. )</p>
             </article>
+
             <article>
-                <h2>Title</h2>
-                <h3>subtitle</h3>
+                <h2 id="ebott">1. Mount Ebott</h2>
+                <h3>The Threshold Between Two Worlds</h3>
                     <p>
-                        text
+                        Mount Ebott is the legendary mountain where the game's events begin. It is a massive geographic feature on the Surface, surrounded by dense forests and a small human village at its base. For centuries, the mountain has been feared by humans, leading to legends that those who climb it never return. 
                     </p>
+                    <ul>
+                        <li><b>The Abyss:</b> Inside a large cave at the summit lies a massive, seemingly bottomless hole. This crater is the primary entrance to the <a href="#underground" class="mention">Underground</a>. It was here that <a href="charapage.html" class="mention">Chara</a> originally fell in 201X, followed much later by <a href="friskpage.html" class="mention">Frisk</a>.</li>
+                        <li><b>The Golden Flowerbed:</b> At the bottom of the fall, a patch of golden flowers cushions the landing. These flowers were grown from seeds that stuck to <a href="asrielpage.html" class="mention">Asriel</a>'s fur when he returned from the surface, creating a symbolic link between the two worlds.</li>
+                        <li><b>The Sunset View:</b> The peak of the mountain offers a panoramic view of the human world, representing the freedom that <a href="torielpage.html" class="mention">Toriel</a> and the other monsters have longed for.</li>
+                    </ul>
             </article>
+
+            <article>
+                <h2 id="underground">2. The Underground</h2>
+                <h3>The Subterranean Kingdom of Monsters</h3>
+                    <p>
+                        The Underground is a vast, self-contained world composed of several interconnected cavern systems. After being defeated in the ancient war, monsters were driven into these caves and sealed away. Despite being beneath the earth, the realm is surprisingly diverse, with its own climate and ecosystems powered by magic and geothermal energy.
+                    </p>
+                    <ul>
+                        <li><b>Magical Atmosphere:</b> The air in the Underground is saturated with magic, which allows monsters (beings made of magic) to thrive. This magic manifests in bioluminescent crystals in <a href="waterfallpage.html" class="mention">Waterfall</a> and the ability to "save" one's progress through <a href="../gamepage.html" class="mention">determination</a>.</li>
+                        <li><b>The Barrier:</b> Located in the heart of <a href="hewhomepage.html" class="mention">New Home</a>, the Barrier is a magical seal created by seven human wizards. It is one-way: anyone can enter, but leaving requires a soul power equivalent to at least one human and one monster soul combined. To destroy it permanently, seven human souls are needed.</li>
+                        <li><b>Societal Structure:</b> The Underground is divided into distinct regions (<a href="ruinspage.html" class="mention">Ruins</a>, <a href="snowdinpage.html" class="mention">Snowdin</a>, <a href="waterfallpage.html" class="mention">Waterfall</a>, <a href="hotlandpage.html" class="mention">Hotland</a>, and the CORE), all governed by <a href="asgorepage.html" class="mention">Asgore</a> Dreemurr. It serves as both a sanctuary and a prison for monsterkind.</li>
+                    </ul>
+            </article>
+
+            <article>
+                <h2 id="surface">3. The Surface</h2>
+                <h3>The World of Light and Humanity</h3>
+                    <p>
+                        The Surface represents the vast, open world of humans that existed before the war. It is characterized by the presence of the Sun, the Moon, and the stars—concepts that many monsters only know through ancient books or legends. For the majority of the game, the Surface is an unreachable goal, a place of peace that <a href="asgorepage.html" class="mention">Asgore</a> intends to reclaim.
+                    </p>
+                    <ul>
+                        <li><b>The Human Village:</b> A settlement located near Mount Ebott. It was here that <a href="asrielpage.html" class="mention">Asriel</a>, carrying the body of <a href="charapage.html" class="mention">Chara</a>, was attacked by humans who misunderstood his intentions, leading to the death of both siblings and the declaration of war by the King.</li>
+                        <li><b>The True Pacifist Ending:</b> At the end of the journey, <a href="friskpage.html" class="mention">Frisk</a> leads <a href="sanspage.html" class="mention">Sans</a>, <a href="papyruspage.html" class="mention">Papyrus</a>, <a href="undynepage.html" class="mention">Undyne</a>, <a href="alphyspage.html" class="mention">Alphys</a>, and the Royal Family to the Surface. They stand on a cliffside watching the sunrise, marking the beginning of a new era of coexistence.</li>
+                        <li><b>Legacy of the War:</b> The Surface remains a place where magic has largely been forgotten by humans, though the magical <a href="../gamepage.html" class="mention">determination</a> of human souls remains the most powerful force in the world.</li>
+                    </ul>
+            </article>
+
+            <article>
+                <h2>The History of the Two Races</h2>
+                <h3>War and Separation</h3>
+                    <p>
+                        Long ago, humans and monsters ruled over the Earth together. However, fear of the monsters' ability to absorb human souls led to a brutal war. The humans were victorious and used their greatest magicians to seal the monsters within the Underground. Since then, the history of these locations has been one of isolation, where <a href="floweypage.html" class="mention">Flowey</a> manipulated time and space within the caves, while the Surface moved on, forgetting the world beneath the mountain.
+                    </p>
+                </article>
         </section>
     </main>
     <footer>

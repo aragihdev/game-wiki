@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <audio src="../songs/071. Undertale (UNDERTALE Soundtrack) - Toby Fox - Toby Fox (128k).mp3" autoplay loop></audio>
+    <audio id="song" src="../songs/071. Undertale (UNDERTALE Soundtrack) - Toby Fox - Toby Fox (128k).mp3" autoplay loop></audio>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    <script src="../script/script.js"></script>
     <header>
         <div class="title">
             <h1><a href="../index.html"><img src="../images/ico.png" alt="undertale_logo" class="logoimg">The Undertale
@@ -35,15 +38,77 @@
     <main>
         <section>
             <article class="textbox" style=" margin-top: 40px;">
-                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( Rediscovering the path through the purple brick walls fills you with determination.)</p>
+                <p style="font-size: 20px; margin-left: 20px;"><img src="../images/asterisco.png" alt="" style="width: 18px; margin-right: 12px;"> ( The white city of the monsters and the weight of your journey's end fill you with determination. )</p>
             </article>
             <article>
-                <h2>Title</h2>
-                <h3>subtitle</h3>
+                <h2>New Home</h2>
+                <h3>The capital of the Underground and the final residential area before reaching the Barrier.</h3>
                     <p>
-                        text
+                        New Home is the mirror image of the <a href="ruinspage.html" class="mention">Ruins</a>, but rendered in grayscale and white tones. It represents the pinnacle of monster civilization, built after they migrated from their original home. This is where <a href="friskpage.html" class="mention">Frisk</a> finally reaches the palace of <a href="asgorepage.html" class="mention">Asgore</a>, walking through the history of the fallen kingdom while being told the story of <a href="asrielpage.html" class="mention">Asriel</a> and <a href="charapage.html" class="mention">Chara</a> by the monsters they met along the way.
+                    </p>
+                <h2>Geographical Characteristics</h2>
+                    <p>
+                        The aesthetic of New Home is monochromatic and somber. While it shares the same architectural layout as the <a href="ruinspage.html" class="mention">Ruins</a>, it feels vast and empty. The capital is a sprawling city of white buildings, but the player only traverses the "Last Corridor" and the King's home, which is filled with golden flowers—a stark contrast to the gray surroundings.
                     </p>
             </article>
+            <article>
+                <h2>Key Locations</h2>
+                    <ul>
+                        <li>
+                            Asgore's House: A near-perfect replica of <a href="torielpage.html" class="mention">Toriel</a>'s home in the <a href="ruinspage.html" class="mention">Ruins</a>, though it feels colder and more formal.
+                        </li>
+                        <li>
+                            The Last Corridor (Judgment Hall): A golden, sun-drenched hallway where <a href="sanspage.html" class="mention">Sans</a> evaluates the protagonist's actions throughout the game.
+                        </li>
+                        <li>
+                            The Throne Room: A massive chamber filled with golden flowers where <a href="asgorepage.html" class="mention">Asgore</a> waits, tending to his garden.
+                        </li>
+                        <li>
+                            The Coffin Room: A basement area containing seven coffins intended for the human souls, including one with a red heart for <a href="charapage.html" class="mention">Chara</a>.
+                        </li>
+                        <li>
+                            The Barrier: The magical seal that traps the monsters underground, located just past the throne room.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                <h2>Inhabitants and Monsters</h2>
+                <h3>New Home is mostly empty of hostile encounters, serving as a narrative climax.</h3>
+                    <p>
+                        <b>The Judge:</b> <a href="sanspage.html" class="mention">Sans</a> stands in the Last Corridor to judge the player's EXP (Execution Points) and LV (Level of Violence).
+                    </p>
+                    <p>
+                        <b>The King:</b> <a href="asgorepage.html" class="mention">Asgore</a> Dreemurr is found here, offering tea and preparing for the final confrontation.
+                    </p>
+                    <p>
+                        <b>Narrative Spirits:</b> In the Neutral/Pacifist routes, various monsters appear as silhouettes to tell the story of the first human (<a href="charapage.html" class="mention">Chara</a>) and the tragedy of the royal family.
+                    </p>
+                </article>
+                <article>
+                <h2>Gameplay Mechanics</h2>
+                <h3>This area replaces traditional combat puzzles with narrative weight and moral reflection:</h3>
+                    <ul>
+                        <li>
+                            <b>Judgment:</b> The player is confronted with the consequences of every monster they have killed or spared.
+                        </li>
+                        <li>
+                            <b>Storytelling:</b> Interaction with objects in <a href="asgorepage.html" class="mention">Asgore</a>'s house provides deep lore about the Dreemurr family.
+                        </li>
+                        <li>
+                            <b>The Final Choice:</b> The player must decide whether to FIGHT or SPARE the King, knowing that only one soul can leave through the barrier.
+                        </li>
+                    </ul>
+                </article>
+                <article>
+                <h2>Impact on Routes</h2>
+                <h3>The journey ends where it truly began:</h3>
+                    <p>
+                        <a href="../gamepage.html#routes" class="mention">Pacifist/Neutral Route:</a> The monsters speak of hope and the tragedy of <a href="asrielpage.html" class="mention">Asriel</a>. If the player reaches the end of the True Pacifist path, this location leads to the final battle against the "God of Hyperdeath."
+                    </p>
+                    <p>
+                        <a href="../gamepage.html#routes" class="mention">Genocide Route:</a> The storytelling is replaced by <a href="floweypage.html" class="mention">Flowey</a>'s confession and <a href="charapage.html" class="mention">Chara</a>'s internal monologue. The "Judgment" becomes the hardest boss fight in the game against <a href="sanspage.html" class="mention">Sans</a>, who attempts to stop the player from erasing the world.
+                    </p>
+                </article>
         </section>
     </main>
     <footer>

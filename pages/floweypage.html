@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <audio src="../songs/003. Your Best Friend (UNDERTALE Soundtrack) - Toby Fox - Toby Fox (128k).mp3" autoplay loop></audio>
+    <audio id="song" src="../songs/003. Your Best Friend (UNDERTALE Soundtrack) - Toby Fox - Toby Fox (128k).mp3" autoplay loop></audio>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    <script src="../script/script.js"></script>
     <header>
         <div class="title">
             <h1><a href="../index.html"><img src="../images/ico.png" alt="undertale_logo" class="logoimg">The Undertale
@@ -57,7 +60,7 @@
                         <b>Philosophical Outlook</b>: He operates under the mantra: "In this world, it's kill or be killed."
                     </li>
                     <li>
-                        <b>The Boredom of Power</b>: Having used the power of SAVE and LOAD countless times before Frisk's arrival, Flowey has seen every possible outcome in the <a href="miscellaneouspage.html" class="mention">Underground</a>, leading to a deep, twisted boredom that fuels his cruelty.
+                        <b>The Boredom of Power</b>: Having used the power of SAVE and LOAD countless times before Frisk's arrival, Flowey has seen every possible outcome in the <a href="miscellaneouspage.html#underground" class="mention">Underground</a>, leading to a deep, twisted boredom that fuels his cruelty.
                     </li>
                     <li>
                         <b>Deceptive Nature</b>: He initially presents himself as a "friend" to lure the protagonist into a false sense of security before attempting to harvest their soul.
@@ -110,7 +113,7 @@
                         <b>Fourth Wall</b>: Flowey is the only character who consistently acknowledges the player as a separate entity from the protagonist.
                     </li>
                     <li>
-                        <b>Echo Flowers</b>: He is often mistaken for an Echo Flower by other monsters, allowing him to travel through the <a href="miscellaneouspage.html" class="mention">Underground</a> unnoticed.
+                        <b>Echo Flowers</b>: He is often mistaken for an Echo Flower by other monsters, allowing him to travel through the <a href="miscellaneouspage.html#underground" class="mention">Underground</a> unnoticed.
                     </li>
                 </ul>
             </article>

@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <audio src="../songs/4. Fallen Down.mp3" autoplay loop></audio>
+    <audio id="song" src="../songs/4. Fallen Down.mp3" autoplay loop></audio>
+    <label for="volume">Volume:</label>
+    <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    <script src="../script/script.js"></script>
     <header>
         <div class="title">
             <h1><a href="../index.html"><img src="../images/ico.png" alt="undertale_logo" class="logoimg">The Undertale
